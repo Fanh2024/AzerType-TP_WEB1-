@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+}
+h1{
+    font-size: 45px;
+    color: rgb(146, 69, 14);
+}
+h2{
+    color: rgb(181, 167, 10);
+}
+p{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(120, 111, 6);
+}
+section{
+    background-color:  rgb(212, 196, 24);
+    height: 50vh;
+    width: 40vw;
+    border-radius: 30px;
+}
+.partie1{
+    background-color: e;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.texte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.partie1 p{
+    color: white;
+}
+.choix{
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+}
+.choix1, .choix2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.choix button{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid rgb(146, 136, 19);
+}
+.partie2{
+    background-color: r;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.mots{
+    background-color: white;
+    width: 33vw;
+    height: 8vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tapez input{
+    height: 4.5vh;
+    width: 27vw;
+    border: 0;
+    border-radius: 6px;
+    
+}
+.tapez button{
+    height: 4.5vh;
+    width: 6vw;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(189, 179, 68);
+}
+.partie3{
+    background-color: r;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.partie3 p{
+    color: white;
+    font-size: 15px;
+}
